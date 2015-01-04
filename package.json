@@ -1,21 +1,21 @@
 {
   "name": "snooze-controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generic Controller for SnoozeJS",
   "main": "main.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "snooze-baselib": "^1.0.0-alpha.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "mocha": "^2.1.0",
     "should": "^4.4.2",
-    "snooze": "^1.0.0-alpha.2",
-    "snooze-baselib": "^1.0.0-alpha.2"
+    "snooze": "^1.0.0-alpha.2"
   },
   "scripts": {
     "test": "mocha"

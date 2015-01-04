@@ -7,7 +7,7 @@ describe('Entity', function() {
 
 	snooze = require('snooze');
 	require('../main.js');
-	snooze.module('myApp', ['snooze-controller', 'snooze-baselib']);
+	snooze.module('myApp', ['snooze-controller']);
 
 	beforeEach(function() {
 		snooze.module('myApp').EntityManager.removeEntity('users');

@@ -13,7 +13,11 @@
 
 			var methods = {};
 			for(var method in constructor) {
-				methods[method] = constructor[method];
+				if(method === '$private') {
+					entity.$private = constructor[method];
+				} else {
+					methods[method] = constructor[method];
+				}
 			}
 
 			entity.instance = {
