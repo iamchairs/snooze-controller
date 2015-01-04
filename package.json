@@ -1,6 +1,6 @@
 {
   "name": "snooze-controller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A generic Controller for SnoozeJS",
   "main": "main.js",
   "directories": {
