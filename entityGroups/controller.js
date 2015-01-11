@@ -38,11 +38,11 @@
 	};
 
 	Controller.registerDependencies = function(entity, entityManager) {
+		var finalDeps = [];
 		var constructor = entity.constructor;
 		for(var method in constructor) {
 			var func = constructor[method];
 			var deps = snooze.Util.getParams(func);
-			var finalDeps = [];
 
 			for(var i = 0; i < deps.length; i++) {
 				var dep = deps[i];
